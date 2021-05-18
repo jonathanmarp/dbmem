@@ -3,7 +3,7 @@ CXX           = g++
 AR            = ar
 
 # Flags Optimize
-OPTIMIZE      = -ffast-math -O2 -g
+OPTIMIZE      = -ffast-math -O2 -g -Ofast -Os
 # FLAGS
 FLAGS         = -Og -DCOMPILER_NOT_VSCODE
 INCLUDE       = -I /usr/include
